@@ -1,0 +1,75 @@
+body{
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: black;
+}
+
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h3{
+    font-size: 1.8rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+.topic{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    color: white;
+    font-size: 40px;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(18, auto);
+    gap: 8px;
+    grid-template-rows: repeat(8, auto);
+    
+}
+/*
+.ceejay{
+    background-color: brown;
+    height: 70px;
+    text-align: center;
+}
+*/
+/*
+.white{
+    background-color: white;
+}
+*/
+.orange{
+    background-color: orange;
+}
+
+.red{
+    background-color: rgb(151, 4, 4);
+}
+/*
+.yellow{
+    background-color: rgb(250, 250, 8);
+}
+
+.indigo{
+    background-color: rgb(132, 48, 192);
+}
+*/
+.blue{
+    background-color: rgb(76, 76, 243);
+}
+
+.green{
+    background-color: rgb(2, 90, 2);
+}
+
+.lightgreen{
+    background-color: rgb(102, 175, 102);
+}
+
+.pink{
+    background-color: rgb(238, 54, 229);
+}
